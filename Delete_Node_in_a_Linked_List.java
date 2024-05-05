@@ -1,6 +1,12 @@
-import java.util.LinkedList;
-public class Delete_Node_in_a_Linked_List {
-    public static void main(String[] args) {
-        LinkedList<int> ListNode = new LinkedList<>() 
-    }
+class Solution {
+    public void deleteNode(ListNode node) {
+        if(node == null || node.next == null){
+            return;
+        }
+        else{
+            node.val = node.next.val;
+            
+            node.next = node.next.next;
+        }
+  }
 }
