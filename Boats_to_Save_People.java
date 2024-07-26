@@ -20,7 +20,7 @@ public class Boats_to_Save_People {
         System.out.println(ko);
     }
 }
-class Solution7 {
+    class Solution7 {
     public int numRescueBoats(int[] people, int limit) {
         int boat=0;
         Arrays.sort(people);
