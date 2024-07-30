@@ -13,7 +13,7 @@ public class Two_sum {
             nums[i] = sc.nextInt();
         }
 
-        //taking the target number froim user
+        //taking the target number from user
         System.out.println("ENTER THE TARGET NUMBER");
         int target = sc.nextInt();
 
